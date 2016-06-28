@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\LegendOfNelda.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{4E8EA0CF-F25E-49F3-AECA-4F248CD98B54}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\LegendOfNelda.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\LegendOfNeldaEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{904905D4-5612-4CC2-86C7-8E87A9557B03}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\LegendOfNelda">
+			<UniqueIdentifier>{540330DE-CEA4-45CF-8734-FE00305127E2}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\LegendOfNelda\GameCamera.cpp">
+			<Filter>Source\LegendOfNelda</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\LegendOfNelda\GameCamera.h">
+			<Filter>Source\LegendOfNelda</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\LegendOfNelda\LegendOfNelda.Build.cs">
+			<Filter>Source\LegendOfNelda</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\LegendOfNelda\LegendOfNelda.cpp">
+			<Filter>Source\LegendOfNelda</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\LegendOfNelda\LegendOfNelda.h">
+			<Filter>Source\LegendOfNelda</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
